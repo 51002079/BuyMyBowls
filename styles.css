@@ -1,0 +1,238 @@
+body { 
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+	margin: 0;
+	padding : 0;
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color .3s;
+}
+
+.topnav a.link {
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-size: 17px;
+  color: #303030;
+}
+
+.topnav a.link:hover {
+  background-color: #f7f7f7;
+  color: #666666;
+}
+
+.topnav img {
+   position: absolute;
+   top: 50%;
+   transform: translate(5%, -50%);
+   filter: invert(16%) sepia(0%) saturate(0%) hue-rotate(209deg) brightness(93%) contrast(89%);
+}
+
+.topnav a.active {
+  background-color: #f7f7f7;
+  color: #303030;
+  font-weight: 700;
+}
+
+.scrollednav {
+	background-color: #303030;
+}
+
+.scrollednav a.link {
+	color: #f7f7f7;
+}
+
+.scrollednav a.link:hover {
+	color: #303030;
+}
+
+.scrollednav img {
+	filter: invert(100%) sepia(3%) saturate(402%) hue-rotate(242deg) brightness(116%) contrast(94%);
+}
+
+.topnav a.active {
+  color: #303030;
+}
+
+html {
+  scroll-behavior: smooth;
+ }
+
+.scrolldown img {
+	filter: invert(16%) sepia(0%) saturate(0%) hue-rotate(209deg) brightness(93%) contrast(89%);
+}
+
+.scrolldown img:hover {
+	filter: invert(76%) sepia(0%) saturate(400%) hue-rotate(170deg) brightness(87%) contrast(91%);
+}
+
+.scrollupwelc img {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+	filter: invert(76%) sepia(0%) saturate(400%) hue-rotate(170deg) brightness(87%) contrast(91%);
+}
+
+.scrollupwelc img:hover {
+	filter: invert(16%) sepia(0%) saturate(0%) hue-rotate(209deg) brightness(93%) contrast(89%)
+
+}
+
+div:not(.topnav) {
+  text-align: center;
+  margin: auto;
+}
+
+table {
+  margin: auto;
+}
+
+
+.scrollupshop img {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+	filter: invert(16%) sepia(0%) saturate(0%) hue-rotate(209deg) brightness(93%) contrast(89%);
+}
+
+.scrollupshop img:hover {
+	filter: invert(76%) sepia(0%) saturate(400%) hue-rotate(170deg) brightness(87%) contrast(91%);
+
+}
+
+.featuredrecently img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 240px;
+	height: 185px;
+}
+
+.allbowls img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 320px;
+	height: 246px;
+}
+
+.navegacion a {
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-weight: 700;
+  font-size: 60px;
+  color: #f7f7f7;
+  background-color: #303030;
+  padding: 25px;
+}
+
+.navegacion a:hover {
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-weight: 700;
+  font-size: 60px;
+  color: #f7f7f7;
+  background-color: #585858;
+  padding: 25px;
+}
+
+.navegacion td {
+  padding: 30px;
+}
+
+.antinavegacion a {
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-weight: 700;
+  font-size: 60px;
+  color: #303030;
+  background-color: #f7f7f7;
+  padding: 25px;
+}
+
+.antinavegacion a:hover {
+  text-decoration: none;
+  font-family: 'Bahnschrift';
+  font-weight: 700;
+  font-size: 60px;
+  color: #303030;
+  background-color: #bebebe;
+  padding: 25px;
+}
+
+.antinavegacion td {
+  padding: 30px;
+}
+
+.bmbgo td {
+  background-color: #303030;
+}
+
+.bmbgo td:hover {
+  background-color: #585858;
+}
+
+.bmbgotwo td {
+  background-color: #f7f7f7;
+}
+
+.bmbgotwo td:hover {
+  background-color: #bebebe;
+}
+
+.subpageheaderproj {
+  font-family: 'Bahnschrift';
+  font-weight: 700;
+  font-size: 60px;
+  color:#303030;
+  text-align: justify;
+  margin-bottom:0;
+}
+
+.tagheaderproj {
+  font-family: 'Bahnschrift';
+  font-weight: 700;
+  font-size: 50px;
+  color:#303030;
+  text-align: justify;
+  margin-bottom: 0
+}
+
+.tagcontentproj {
+  font-family: 'Bahnschrift Light';
+  font-size: 36px;
+  color: #303030;
+  text-align: justify;
+}
+
+.attributelist {
+  font-family: 'Bahnschrift Light';
+  font-size: 30px;
+  color: #303030;
+  text-align: justify;
+  margin: 0;
+  padding: 5px;
+}

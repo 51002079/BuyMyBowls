@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" href="https://i.imgur.com/oMWTW19.png">
+		<title>Shop - BuyMyBowls</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	</head>
+	<body>
+		<script>
+			$(document).ready(function(){
+				$(window).scroll(function() {
+					if ($(document).scrollTop() > 300) {
+						$(".topnav").addClass("scrollednav")
+					} else {
+						$(".topnav").removeClass("scrollednav")
+					}
+				});
+			});
+		</script>
+		<div class="topnav">
+			<a href="Welcome - BuyMyBowls.html"><img src="https://i.imgur.com/8SmOE7f.png" style="width:204px;height:32px"></a>
+			<a class="link" href="Our Story - BuyMyBowls.html">Our Story</a>
+			<a class="active link" href="Shop - BuyMyBowls.html">Shop</a>
+			<a class="link" href="Welcome - BuyMyBowls.html">Home</a>
+		</div>
+		<div id="shopfront" style="background-color:#f7f7f7;padding-top:100px;padding-bottom:10px">
+			<div class="shoplogo" style="padding-bottom:10px">
+				<img src="https://i.imgur.com/LMs0OJQ.png" style="width:331px;height:286px;filter: invert(16%) sepia(0%) saturate(0%) hue-rotate(209deg) brightness(93%) contrast(89%)">
+			</div>
+			<div class="shopdecription">
+				<p style="font-family: 'Bahnschrift Light';font-size: 34px;color:#303030">Find the perfect bowl for your home.</p>
+			</div>
+		</div>
+		<div class="featuredrecently" style="padding:10px">
+			<div style="padding:5px">
+				<p style="font-family: 'Bahnschrift Light';font-size: 30px;color:#303030">Featured recently:</p>
+			</div>
+			<table>
+				<tr>
+					<td><img src="https://i.imgur.com/pD8SEA9.png"></td>		
+					<td><img src="https://i.imgur.com/0yg8aww.png"></td>
+					<td><img src="https://i.imgur.com/bM23pAY.png"></td>
+					<td><img src="https://i.imgur.com/EPTX1U0.png"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="scrolldown">
+				<a href="#allbowls"><img src="https://i.imgur.com/pLmmWS1.png" style="padding-bottom:50px" ></a>
+		</div>
+		<div class="allbowls" id="allbowls" style="padding-top:50px">
+			<div style="padding:25px">
+				<p style="font-family: 'Bahnschrift Light';font-size: 30px;color:#303030">All bowls:</p>
+			</div>
+			<table>
+				<tr>
+					<td><img src="https://i.imgur.com/bsESpQW.png"></td>
+					<td><img src="https://i.imgur.com/yvykUID.png"></td>
+					<td><img src="https://i.imgur.com/EPTX1U0.png"></td>
+					<td><img src="https://i.imgur.com/wt9yJgr.png"></td>
+				</tr>
+				<tr>
+					<td><img src="https://i.imgur.com/dyFeCRw.png"></td>
+					<td><img src="https://i.imgur.com/LHtzIBy.png"></td>
+					<td><img src="https://i.imgur.com/pD8SEA9.png"></td>		
+					<td><img src="https://i.imgur.com/BjPUD0Q.png"></td>
+				</tr>
+				<tr>
+					<td><img src="https://i.imgur.com/z7j5crF.png"></td>
+					<td><img src="https://i.imgur.com/vFUr160.png"></td>
+					<td><img src="https://i.imgur.com/DNtibRb.png"></td>
+					<td><img src="https://i.imgur.com/Q34jRUE.png"></td>
+				</tr>
+				<tr>
+					<td><img src="https://i.imgur.com/bM23pAY.png"></td>
+					<td><img src="https://i.imgur.com/zLdWAxX.png"></td>
+					<td><img src="https://i.imgur.com/wsCnWAp.png"></td>
+					<td><img src="https://i.imgur.com/0yg8aww.png"></td>
+				</tr>
+			</table>
+		</div>
+		<div class="scrollupshop">
+			<a href="#shopfront"><img src="https://i.imgur.com/pLmmWS1.png" style="padding-bottom:40px;padding-top:20px"></a>
+		</div>
+	</body>
+</html>
